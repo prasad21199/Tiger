@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestB(failed)">
+    <parameter name="un" value="virat"/>
+    <parameter name="pwd" value="anushka"/>
+    <classes>
+      <class name="datadriventesting.LearnParameterization">
+        <methods>
+          <include name="learnPara"/>
+        </methods>
+      </class> <!-- datadriventesting.LearnParameterization -->
+    </classes>
+  </test> <!-- TestB(failed) -->
+</suite> <!-- Failed suite [Suite] -->
